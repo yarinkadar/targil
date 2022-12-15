@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh 'python yarinpy.py'
+                bat 'python yarinpy.py'
             }
         }
     }
